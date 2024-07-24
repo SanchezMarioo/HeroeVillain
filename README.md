@@ -1,4 +1,4 @@
-# HeroeVillain
+
 # Juego de Emparejar Héroes y Villanos
 
 ¡Bienvenido al Juego de Emparejar Héroes y Villanos! Este proyecto es un juego de memoria basado en la web donde los jugadores deben emparejar cartas de héroes y villanos. El juego está inspirado en franquicias clásicas como Dragon Ball, Marvel y DC.
@@ -19,6 +19,7 @@ Este proyecto es un juego de memoria que incluye los siguientes componentes clav
 - Una página de entrada para recopilar configuraciones del juego e información del jugador.
 - Una página de juego donde los jugadores voltean cartas para encontrar pares coincidentes.
 - Elementos de diseño temáticos que representan héroes y villanos.
+- Basandome en el modelo siguente: https://v0.dev/t/cudBgT3mUwR
 
 ## Características
 
@@ -39,4 +40,4 @@ Este proyecto es un juego de memoria que incluye los siguientes componentes clav
 Para comenzar con el proyecto, sigue estos pasos:
 
 1. Clona el repositorio:
-     `git clone git@github.com:SanchezMarioo/HeroeVillain.git`
+     ` git clone git@github.com:SanchezMarioo/retro-heroes-villains-game.git`

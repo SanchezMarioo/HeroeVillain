@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #1e1e1e;
+}
+header{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    width: 100vw;
+}
+header svg{
+    color: #ecbd02;
+    width: 100px;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+.enlaces{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    gap: 20px;
+}
+.enlaces a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+.enlaces a:hover{
+    color: #ecbd02;
+    text-decoration: underline;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    width: 50vw;
+    color: white;
+    background-color: #222222;
+    padding: 20px;
+}
+.form input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #222222;
+    color: white;
+    border: 2px solid #ecbd02;
+}
+.form input:focus{
+    outline: none;
+}
+.nombre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nombre label{
+    font-size: 1.2em;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.nombre input{
+    width: 50%;
+    border-radius: 4.5px;
+    font-family: 'Inter', sans-serif;
+}
+.form h2{
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.dificultad{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    width: 70%;
+}
+.dificultad label{
+    font-size: 1.2em;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+.dificultad-container div, .cartas-container div{
+    padding: 7.5px;
+
+}
+.dificultad-container,.cartas-container{
+    padding: 10px;
+} 
+.radio-container {
+    display: flex;
+    align-items: center;/* Asegura que el input y el label estén alineados verticalmente */
+    margin-bottom: 10px; /* Espacio entre cada par */
+}
+  .juego-configuracion {
+    display: flex;
+    justify-content: space-between; /* Esto separa ambos contenedores uniformemente */
+    align-items: center; /* Alinea los contenedores al inicio, útil si tienen diferentes alturas */
+    gap: 20px; 
+    width: 52.5%;/* Espacio entre los contenedores */
+}
+input[type="radio"] {
+    accent-color: #ecbd02;
+}
+.avatar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 70%;
+}
+.avatar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: #444444;
+    padding: 20px;
+    transition: all 0.5s;
+
+}
+.avatar:hover{
+    background-color: #ecbd0280;
+    cursor: pointer;
+    scale: 1.1;
+}
+.avatar img{
+    width: 50px;
+    height: 100px;
+    object-fit: cover;
+}
+.avatar-drop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    width: 60%;
+    height: 200px;
+    border: 2px dashed #444444;
+    flex-direction: column;
+    gap: 5px;
+    transition: all 0.5s;
+}
+.avatar-drop i{
+    font-size: 2em;
+    color: #444444;
+}
+.avatar-drop p{
+    color: #444444;
+}
+.avatar-drop:hover {
+    border: 2px dashed #ecbd0280;
+    cursor: pointer;
+    color: #ecbd0280;
+}
+
+.avatar-drop:hover p, .avatar-drop:hover i {
+    color: #ecbd0280;
+    transition: all 0.5s;
+}
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.boton button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 204, 0);
+    color: #1e1e1e;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 60%;
+}
+.boton button:hover{
+    background-color: #ffce08;
+}

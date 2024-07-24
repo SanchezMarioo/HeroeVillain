@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hero VS Villain </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilosForm.css">
+    <script src="https://kit.fontawesome.com/c684c1c9e1.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
-    
+    <header>
+        <div class="logo">
+        <svg data-id="4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><circle cx="12" cy="12" r="4"></circle></svg>
+        <h2>Hero vs Villain</h2>
+        </div>
+        <div class="enlaces">
+            <a href="">How To Play</a>
+            <a href="">Leaderbord</a>
+        </div>
+    </header>
+    <form action="juego.html">
+        <div class="form">
+            <h3>¡Vamos a jugar!</h3>
+            <div class="nombre">
+                <label for="nombre"> Nickname</label>
+                <input type="text" placeholder="Introduzca su nickname" required minlength="2" id="nickname">
+            </div>
+            <div class="juego-configuracion">
+                
+                <div class="dificultad-container">
+                    <h4>Dificultad</h4>
+                    <div>
+                        <input type="radio" id="facil" name="dificultad" value="facil"/>
+                        <label for="facil">Facil</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="medio" name="dificultad" value="medio" />
+                        <label for="medio">Medio</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="dificil" name="dificultad" value="dificil"/>
+                        <label for="dificil">Dificil</label>
+                    </div>
+                </div>
+                <div class="cartas-container">
+                    <h4>Numero de cartas</h4>
+                    <div>
+                        <input type="radio" id="3" name="cartas" value="3"/>
+                        <label for="9">3x3</label>
+                    </div>
+                    
+                    <div>
+                        <input type="radio" id="4" name="cartas" value="4" />
+                        <label for="16">4x4</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="5" name="cartas" value="5"/>
+                        <label for="25">5x5</label>
+                    </div>
+                </div>
+        </div>
+        <h3>Selecciona tu avatar</h3>
+        <div class="avatar-container">
+            <div class="avatar">
+                <img src="images/Avatar/hero1.png" alt="Avatar 1 Chico Policia" draggable="true" class="avatar-img">
+            </div>
+            <div class="avatar">
+                <img src="images/Avatar/hero2.png" alt="Avatar 2  Chica Policia" draggable="true" class="avatar-img">
+            </div>
+            <div class="avatar">
+                <img src="images/Avatar/hero3.png" alt="Avatar 3 Blanco Chico" draggable="true" class="avatar-img">
+            </div>
+            <div class="avatar">
+                <img src="images/Avatar/hero4.png" alt="Avatar 4 Blanco Chica" draggable="true" class="avatar-img">	
+            </div>
+        </div>
+        <div class="avatar-drop" draggable="true" id="avatar-drop">
+            <i class="fa-solid fa-cloud-arrow-up"></i>
+            <p>Arrastre el elemento</p>
+            <p id="nombre"></p>
+        </div>
+        <div class="boton">
+            <button type="submit" id="boton">Jugar</button>
+        </div>
+    </div>
+    </form>
+    <script src="js/app.js" defer></script>
 </body>
 </html>
