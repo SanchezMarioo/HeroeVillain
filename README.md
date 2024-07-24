@@ -34,6 +34,40 @@ Este proyecto es un juego de memoria que incluye los siguientes componentes clav
     - Los pares coincidentes permanecen revelados y se suman puntos.
     - Intentos limitados según el nivel de dificultad.
     - Elementos especiales como bombas y artefactos que añaden variedad al juego.
+    Número de Movimientos
+
+    Fácil:
+        3x3 (9 tarjetas): 20 movimientos
+        4x4 (16 tarjetas): 40 movimientos
+        5x5 (25 tarjetas): 60 movimientos
+
+    Medio:
+        3x3 (9 tarjetas): 15 movimientos
+        4x4 (16 tarjetas): 30 movimientos
+        5x5 (25 tarjetas): 45 movimientos
+
+    Difícil:
+        3x3 (9 tarjetas): 10 movimientos
+        4x4 (16 tarjetas): 20 movimientos
+        5x5 (25 tarjetas): 30 movimientos
+
+Tiempo de Visualización de las Cartas
+
+    Fácil: Las cartas permanecen visibles durante 2 segundos antes de volver a voltearse.
+    Medio: Las cartas permanecen visibles durante 1.5 segundos antes de volver a voltearse.
+    Difícil: Las cartas permanecen visibles durante 1 segundo antes de volver a voltearse.
+
+Resumen
+
+    Fácil:
+        Movimientos: 20 (3x3), 40 (4x4), 60 (5x5)
+        Tiempo de visualización: 2 segundos
+    Medio:
+        Movimientos: 15 (3x3), 30 (4x4), 45 (5x5)
+        Tiempo de visualización: 1.5 segundos
+    Difícil:
+        Movimientos: 10 (3x3), 20 (4x4), 30 (5x5)
+        Tiempo de visualización: 1 segundo
 
 ## Instalación
 
